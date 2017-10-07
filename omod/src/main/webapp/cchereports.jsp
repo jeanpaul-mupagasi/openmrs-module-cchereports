@@ -69,7 +69,7 @@ $(document).ready(function(){
 });
 </script>
 <div id="msg"></div>
-<h2>Register/Remove CCHU Reports</h2>
+<h2>Register/Remove CCHE Reports</h2>
 
 <br />
 <br />
@@ -82,46 +82,56 @@ $(document).ready(function(){
 		<td colspan="2"><center>Action</center></td>
 	</tr>
 	<tr>
-		<td rowspan="3" class="tabletd">Log Book Reports</td>
-		<td>OR Log Book Report</td>
+		<td rowspan="4" class="tabletd">CURE Ethiopia Reports</td>
+		<td>OR Report</td>
 		<td>Central</td>
 		<td><a
-			href="${pageContext.request.contextPath}/module/cchereports/register_ORLogBook.form"
+			href="${pageContext.request.contextPath}/module/cchereports/register_OR_Report.form"
 			onclick=msgreg(this)>(Re) register</a></td>
 		<td><a
-			href="${pageContext.request.contextPath}/module/cchereports/remove_ORLogBook.form"
+			href="${pageContext.request.contextPath}/module/cchereports/remove_OR_Report.form"
 			onclick=msgrem(this)>Remove</a></td>
 	</tr>
 	<tr>
-		<td>Plastic Surgery Log Book Report</td>
+		<td>Activity Progress Monitoring Report</td>
 		<td>Central</td>
 		<td><a
-			href="${pageContext.request.contextPath}/module/cchereports/register_PSLoggBook.form"
+			href="${pageContext.request.contextPath}/module/cchereports/register_Activity_Progress_Monitoring.form"
 			onclick=msgreg(this)>(Re) register</a></td>
 		<td><a
-			href="${pageContext.request.contextPath}/module/cchereports/remove_PSLoggBook.form"
+			href="${pageContext.request.contextPath}/module/cchereports/remove_Activity_Progress_Monitoring.form"
 			onclick=msgrem(this)>Remove</a></td>
 	</tr>
 	<tr>
-		<td>Summary Values Report</td>
+		<td>Ward Report</td>
 		<td>Central</td>
 		<td><a
-			href="${pageContext.request.contextPath}/module/cchereports/register_SVReport.form"
+			href="${pageContext.request.contextPath}/module/cchereports/register_Ward_Report.form"
 			onclick=msgreg(this)>(Re) register</a></td>
 		<td><a
-			href="${pageContext.request.contextPath}/module/cchereports/remove_SVReport.form"
+			href="${pageContext.request.contextPath}/module/cchereports/remove_Ward_Report.form"
+			onclick=msgrem(this)>Remove</a></td>
+	</tr>
+	<tr>
+		<td>OPD Report</td>
+		<td>Central</td>
+		<td><a
+			href="${pageContext.request.contextPath}/module/cchereports/register_OPD_Report.form"
+			onclick=msgreg(this)>(Re) register</a></td>
+		<td><a
+			href="${pageContext.request.contextPath}/module/cchereports/remove_OPD_Report.form"
 			onclick=msgrem(this)>Remove</a></td>
 	</tr>
 	
 	<tr>
 	    <td rowspan="1" class="tabletd">General Reports</td>
-		<td>Follow-up Report</td>
+		<td>ED Report</td>
 		<td>Central</td>
 		<td><a
-			href="${pageContext.request.contextPath}/module/cchereports/register_followupsReport.form"
+			href="${pageContext.request.contextPath}/module/cchereports/register_ED_Report.form"
 			onclick=msgreg(this)>(Re) register</a></td>
 		<td><a
-			href="${pageContext.request.contextPath}/module/cchereports/remove_followupsReport.form"
+			href="${pageContext.request.contextPath}/module/cchereports/remove_ED_Report.form"
 			onclick=msgrem(this)>Remove</a></td>
 	</tr>
 
